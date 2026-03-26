@@ -6,7 +6,7 @@ public class Gravitation : MonoBehaviour
     public static List<Gravitation> otherObj;
     private Rigidbody rb;
 
-    const float G = 0.00667f;
+    const float G = 6.67f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
